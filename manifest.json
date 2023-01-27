@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Netflix 1080p",
   "description": "Forces 1080p and 5.1 playback for Netflix.",
-  "version": "1.28.0",
+  "version": "1.28.1",
   "author": "truedread, jangxx",
   "action": {
     "default_icon": "img/icon128.png"

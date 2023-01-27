@@ -23,6 +23,7 @@ function addSettingsToHtml(settings) {
 chromeStorageGet({
     use6Channels: true,
     setMaxBitrate: true,
+    useAv1: true,
     disableVP9: false,
     disableAVChigh: false,
     showAllSubs: false,

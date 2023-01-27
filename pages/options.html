@@ -7,15 +7,20 @@
 
 <body>
     <input type="checkbox" id="use51"><label for="use51">Use 5.1 audio when available</label>
-    <br>
-    <input type="checkbox" id="setMaxBitrate"><label for="setMaxBitrate">Automatically select best bitrate available</label>
-    <br>
-    <input type="checkbox" id="disableVP9"><label for="disableVP9">Disable VP9 codec</label>
-    <br>
-    <input type="checkbox" id="disableAVChigh"><label for="disableAVChigh">Disable AVChigh codec</label>
-    <br>
-    <input type="checkbox" id="showAllSubs"><label for="showAllSubs">Show all subtitle tracks</label>
+        <br>
+        <input type="checkbox" id="setMaxBitrate"><label for="setMaxBitrate">Automatically select best bitrate available</label>
+        <br>
+        <input type="checkbox" id="showAllSubs"><label for="showAllSubs">Show all subtitle tracks</label>
+        <br><br>
+        <span style="padding-left: 4px;">Netflix stream selection order: av1 > vp9 > avchigh > avc</span>
+        <br>
+        <input type="checkbox" id="useAv1">Use AV1</input>
+        <br>
+        <input type="checkbox" id="disableVP9"><label for="disableVP9">Disable VP9 codec</label>
+        <br>
+        <input type="checkbox" id="disableAVChigh"><label for="disableAVChigh">Disable AVChigh codec</label>
 
+    <br><br>
     <div id="status"></div>
     <button id="save">Save</button>
 
